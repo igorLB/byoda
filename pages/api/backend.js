@@ -40,7 +40,7 @@ export default async function handler(req, res) {
 
         const myObj = { resposta: finalResult };
         res.status(200).json(myObj);
+    } else {
+        res.status(400).json({ error: 'Ops, parametros inválidos!' });
     }
-
-    res.status(400).json({ error: 'Ops, parametros inválidos!' });
 }
