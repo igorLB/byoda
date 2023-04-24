@@ -10,15 +10,15 @@ export default function Home() {
         <title>{siteTitle}</title>
       </Head>
       <section className={utilStyles.headingMd}>
-        <p>Hello, I'm Igor; I'm a software enginner and a chef of pancakes!</p>
-        <p>Here yoy will meet the BYoda, my little assistant.</p>
+        <p>Hello, I'm Igor; a software enginner and a chef of pancakes!</p>
+        <p>Here you will meet the BYoda, my little assistant.</p>
         <br />
-        <p>
-          You can see the <strong>Writers Helper</strong> of BYoda here:
-          <strong><Link href='/chat'> BYoda Helps!</Link></strong>
-          <br /><br />
-          <small>(It was made  especially for Gabs (❤️) but if you are a curious, you can play it too)</small>
-        </p>
+        <p>You can see below all the BYoda super powers:</p>
+        <ul>
+          <li><Link href='/chat'>Creative Block</Link></li>
+          <li><Link href='/imaginex'>Character Generator</Link></li>
+        </ul>
+        <small>(It was made  especially for Gabs (❤️) but if you are a curious, you can play it too)</small>
       </section>
     </Layout>
   );

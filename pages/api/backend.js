@@ -11,7 +11,6 @@ export default async function handler(req, res) {
 
     let { genero, resumo, loucura } = req.body;
 
-
     if (genero && resumo && genero.length < 25 && resumo.length < 200) {
         console.log('fazendo chamada para a API da OpenAI')
 
