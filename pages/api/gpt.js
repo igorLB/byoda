@@ -16,7 +16,7 @@ export default async function handler(req, res) {
 
     const complition = await openai.createImage({
         model: "image-alpha-001",
-        prompt: `Um personagem ${description} em um fundo branco, ${artStyle}`,
+        prompt: `Um personagem ${description} em um fundo branco, Estilo: ${artStyle}`,
         size: size,
         response_format: 'url',
         n: 1,

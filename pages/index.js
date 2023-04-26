@@ -15,8 +15,8 @@ export default function Home() {
         <br />
         <p>You can see below all the BYoda super powers:</p>
         <ul>
-          <li><Link href='/chat'>Creative Block</Link></li>
-          <li><Link href='/imaginex'>Character Generator</Link></li>
+          <li><Link href='/chat'><div className='btn-custom'>Creative Block</div></Link></li>
+          <li><Link href='/imaginex'><div className='btn-custom'>Character Generator</div></Link></li>
         </ul>
         <small>(It was made  especially for Gabs (❤️) but if you are a curious, you can play it too)</small>
       </section>
